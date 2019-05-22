@@ -1,0 +1,18 @@
+*,*:before, *:after{
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width:960px;
+    margin: 0 auto;
+}
+
+.flowerLogo{
+    width:5%;
+    height:5%;
+}
+
+.header{
+    /* temporary color for testing */
+    background-color:yellow;
+}
