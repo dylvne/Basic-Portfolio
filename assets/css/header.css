@@ -20,7 +20,7 @@ body{
 .header{
     /* temporary color for testing */
     background-color:#ffffff;
-    height:100px;
+    height:80px;
     border-bottom-width: 2px;
     border-bottom-color: #cccccc;
     border-style: solid;
@@ -31,12 +31,12 @@ nav{
     background-color:pink;
     position: absolute;
     right:0;
-    bottom: 50%;
+    bottom: 40%;
 }
 .logoAlign{
     /* background-color:royalblue; */
     width: 960px;
-    height: 100px;
+    height: 80px;
     margin: 0 auto;
     position: relative;
 }
@@ -45,14 +45,14 @@ nav{
     position: absolute; 
     left:0;
     width:20%;
-    height:98%;
+    height:97%;
 }
 .flowerLogo{
     position: absolute;
     width:80px;
-    height:80px;
+    height:78px;
     top:0;
-    left: 10%;
+    left: 0;
 }
 .logoTitle{
     position: absolute;
