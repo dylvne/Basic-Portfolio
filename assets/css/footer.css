@@ -3,6 +3,7 @@
 /* may as well ignore it */
 footer{
     position: absolute;
+    left:0;
     bottom: 0;
     margin-top: 4%;
     height: 50px;
