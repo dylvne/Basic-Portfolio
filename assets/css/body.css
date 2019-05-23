@@ -26,3 +26,22 @@ section{
     border-width: 1px;
     border-color: #dddddd;
 }
+
+
+.contentHeader{
+    width: 90%;
+    height: 70px;
+    margin: 4% auto;
+    border-bottom-width: 2px;
+    border-bottom-color: #cccccc;
+    border-style: solid;
+    padding: 10px;
+    
+}
+.contentTitle{
+    color:  rgb(235, 39, 72);
+    font-weight: bold;
+}
+
+
+
