@@ -8,6 +8,7 @@ body{
     background-image: url("../images/memphis-mini.png");
     background-size: contain;
     background-repeat: repeat;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 
