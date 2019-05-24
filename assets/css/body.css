@@ -1,24 +1,26 @@
 /* this makes sure the page always fills up atleast the browser */
-html,body{
+html{
     min-height: 100%;
-        position:relative;
+    /* height: 100%; */
+    position:relative;
 }
 
 /* this gives info on the body */
 body{
+    position: absolute;
     width: 100%;
-    height:100%;
-    background-image: url("../images/memphis-mini.png");
+    min-height: 100%;
+    background-image: url(../images/memphis-mini.png);
     background-size: contain;
     background-repeat: repeat;
-    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 /* this is what wraps around the content to keep it in place */
 .wrapper{
     width:960px;
     /* height: 100%; */
-    margin: 20px auto 70px auto;
+    margin: 40px auto 90px auto;
 }
 
 /* this is the color and border for sections of content */
@@ -46,11 +48,24 @@ section{
 }
 .contentContainer{
     /* temporary color for editing */
-    background-color: aqua;
+    /* background-color: aqua; */
     width: 90%;
-    height: 400px;
+    /* height: 400px; */
     margin: 0 auto 20px auto;
 
+}
+
+.profilePic{
+    /* position: absolute; */
+    width: 100px;
+    height: 100px;
+    float:left;
+    margin: 0 10px 10px 0;
+}
+
+.containerText{
+    /* position: absolute; */
+    margin: 10px auto;
 }
 
 
